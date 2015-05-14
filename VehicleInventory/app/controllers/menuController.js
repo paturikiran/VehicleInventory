@@ -32,6 +32,19 @@
             //    $scope.selectedTemplateUrl = "app/templates/login.html";
             //}
         }
+
+        $scope.$on('registerEvent', function () {
+            setTimeout(function () {
+                $scope.userReigstered = "user address updated successfully";
+                $scope.$digest();
+            }, 2000);
+            
+        });
+
+        $scope.$watch('myModel', function (oldValue, newValue) {
+            console.log(oldValue);
+            console.log(newValue);
+        });
         initialize();
 
     }]);
