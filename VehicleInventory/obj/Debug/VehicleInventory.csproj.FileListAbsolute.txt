@@ -4,3 +4,9 @@ c:\training\CGI\VehicleInventory\VehicleInventory\bin\VehicleInventory.pdb
 c:\training\CGI\VehicleInventory\VehicleInventory\obj\Debug\VehicleInventory.csprojResolveAssemblyReference.cache
 c:\training\CGI\VehicleInventory\VehicleInventory\obj\Debug\VehicleInventory.dll
 c:\training\CGI\VehicleInventory\VehicleInventory\obj\Debug\VehicleInventory.pdb
+C:\training\VehicleInventory\VehicleInventory\bin\VehicleInventory.dll.config
+C:\training\VehicleInventory\VehicleInventory\bin\VehicleInventory.dll
+C:\training\VehicleInventory\VehicleInventory\bin\VehicleInventory.pdb
+C:\training\VehicleInventory\VehicleInventory\obj\Debug\VehicleInventory.csprojResolveAssemblyReference.cache
+C:\training\VehicleInventory\VehicleInventory\obj\Debug\VehicleInventory.dll
+C:\training\VehicleInventory\VehicleInventory\obj\Debug\VehicleInventory.pdb

@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\controllers\addressRegistrationController.js" />
     <Content Include="app\data\login.json" />
     <Content Include="app\data\vehicles.json" />
     <None Include="Web.Debug.config">
@@ -72,6 +73,7 @@
     <Content Include="app\controllers\menuController.js" />
     <Content Include="app\controllers\registerController.js" />
     <Content Include="app\controllers\vehicleListController.js" />
+    <Content Include="app\directives\custom-register.js" />
     <Content Include="app\filters\phoneNumberFormatter.js" />
     <Content Include="app\services\loginService.js" />
     <Content Include="app\services\registerService.js" />
@@ -79,6 +81,7 @@
     <Content Include="app\templates\home.html" />
     <Content Include="app\templates\login.html" />
     <Content Include="app\templates\menu.html" />
+    <Content Include="app\templates\register-address.html" />
     <Content Include="app\templates\register.html" />
     <Content Include="app\templates\reports.html" />
     <Content Include="app\templates\vehiclelist.html" />
@@ -92,7 +95,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\directives\" />
     <Folder Include="app\factories\" />
     <Folder Include="app\models\" />
     <Folder Include="app\styles\" />
