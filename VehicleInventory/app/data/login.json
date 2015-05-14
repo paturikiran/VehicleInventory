@@ -1,0 +1,9 @@
+﻿{
+    "users": [
+        { "user": { "username": "kiran", "password": "1234" } },
+        { "user": { "username": "cgi", "password": "4567" } },
+        { "user": { "username": "kkk", "password": "1234" } },
+        { "user": { "username": "abcd", "password": "1234" } }
+
+    ]
+}

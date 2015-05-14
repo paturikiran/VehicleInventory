@@ -1,0 +1,10 @@
+﻿{
+    "vehicles": [
+        { "year": 1995, "make": "Maruti", "model": "800" },
+        { "year": 1996, "make": "Maruti", "model": "Zen" },
+        { "year": 1997, "make": "Honda", "model": "City" },
+        { "year": 2000, "make": "Maruti", "model": "Wagonr" },
+        { "year": 2001, "make": "Audi   ", "model": "A5" }
+
+    ]
+}
