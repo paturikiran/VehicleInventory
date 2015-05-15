@@ -1,7 +1,11 @@
 ﻿app.controller('menuController',
-    ['$scope','loginService', '$state',function ($scope,loginSvc,$state) {
+    ['$scope','loginService', '$state',"APP_CONSTANTS","APP_VALUE",
+        function ($scope,loginSvc,$state,
+                  CONSTANTS,appValues) {
 
         function initialize() {
+            console.log(appValues.APP_SOME_VALUE);
+            console.log(CONSTANTS.ERROR_MESSAGE);
             $scope.menuTemplateUrl =
                 "app/templates/menu.html";
             $scope.menuItems = [{ name: "Login", route: "login" },
