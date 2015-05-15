@@ -1,4 +1,4 @@
-﻿var app = angular.module('vehicle.inventory', ['ui.router']);
+﻿var app = angular.module('vehicle.inventory', ['ui.router','ui.grid','ui.grid.pagination']);
 
 app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider,
     urlRouterProvider) {
@@ -7,9 +7,15 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider,
         url: "/home",
         templateUrl: "app/templates/home.html"
     };
-    var vehicleList = {
+   /* var vehicleList = {
         url: "/vehiclelist",
-        templateUrl: "app/templates/vehiclelist.html"
+        templateUrl: "app/templates/vehicleGrid.html",
+
+    };*/
+    var vehicleGrid = {
+        url: "/vehicleGrid",
+        templateUrl: "app/templates/vehicleGrid.html",
+        controller:'vehicleGridController'
     };
     var register = {
         url: "/register",
@@ -24,10 +30,10 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider,
         templateUrl: "app/templates/reports.html"
     };
     $stateProvider.state('home', home);
-    $stateProvider.state('vehiclelist', vehicleList);
+    //$stateProvider.state('vehiclelist', vehicleList);
     $stateProvider.state('register', register);
     $stateProvider.state('login', login);
     $stateProvider.state('reports', reports);
-
+    $stateProvider.state('vehicles',vehicleGrid);
    
 }]);

@@ -3,14 +3,16 @@
 <head>
     <title>Vehicle Inventory Application</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/styles/bootstrap.min.css">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="app/styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="app/styles/ui-grid.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="app/vendor/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="app/vendor/bootstrap.min.js"></script>
     <script src="app/vendor/angular.js"></script>
     <script src="app/vendor/angular-ui-router.js"></script>
+    <script src="app/vendor/ui-grid.js"></script>
     <!-- refer app.js-->
     <script src="app/app.js"></script>
 </head>
@@ -29,11 +31,13 @@
     <script src="app/services/loginService.js"></script>
     <script src="app/services/vehicleListService.js"></script>
     <script src="app/services/registerService.js"></script>
+    <script src="app/services/vehicleServiceWithPromise.js"></script>
     <!--refer the controllers here-->
     <script src="app/controllers/menuController.js"></script>
     <script src="app/controllers/loginController.js"></script>
     <script src="app/controllers/registerController.js"></script>
     <script src="app/controllers/vehicleListController.js"></script>
     <script src="app/controllers/addressRegistrationController.js"></script>
+<script src="app/controllers/vehicleGridController.js"></script>
 </body>
 </html>

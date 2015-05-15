@@ -9,7 +9,7 @@
                 name: "Register", route: "register"
             },
             { name: "Home", route: "home" },
-            { name: "Vehicle List", route: "vehiclelist" },
+            { name: "Vehicle List", route: "vehicles" },
             { name: "Reports", route: "reports" }]
             //$scope.menuItems = [
             //    { name: "Login", templateUrl: "app/templates/login.html" },
